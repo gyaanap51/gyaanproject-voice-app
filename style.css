@@ -1,25 +1,22 @@
-body
-{
- background-color: aquamarine;  
+body{
+    background-color: aquamarine;
+    font-style: italic;
 }
-
-#start-btn
-{
-    width: 40%;
-} 
-#camera
-{
-    width:360px;
-    height: 250px;
-    border:1px solid grey;
-    border-radius: 10px;
+h1{
+    font-family: 'El Messiri', sans-serif;
+    color: blue;
 }
-#logo_img
-{
-    width: 150px;
-    border-radius: 100px;
+p{
+    font-family: 'Bungee Inline', cursive;
+    color: rgb(235, 12, 12);
+    font-size: medium;
 }
-#textbox
-{
-    width: 300px;
+button{
+    background-color: rgb(224, 178, 24);
+    font-family: 'BioRhyme', serif;
+}
+#camera{
+    border: blue solid 5px;
+    width: 400px;
+    height: 400px;
 }
