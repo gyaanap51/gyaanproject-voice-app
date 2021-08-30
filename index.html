@@ -1,53 +1,34 @@
- 
 <html>
-  <head>
-    <title>Image recognition</title>
+<head>
+  <title>Realtime Drawing</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
-    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
 
-   <link rel="stylesheet" href="style.css">
-  
-  </head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
-  <body>
-  <div class="container">
-    
-    <center>
+<body background="nice.jpg">
+<center>
+  <h3 class="btn btn-warning heading">Font Manipulator
+    <br>
+    <span class="note">NOTE - Get your left and right wrist closer 
+      to reduce the size of the font and to increase the size of 
+      the font keep your left and right wrist far from each other. 
+      Move you nose to move the font</span>
+    <br>
 
-      <br><br>
-       <h1>Image Recognition</h1>
-      <p style="font-size: 22px;">Model is trained to identify the following objects: </p>
-       Dad(Ashvin)
-      <br><br>
-       Mom(Simoli)
-      <br><br>
-       Sister(Nia)   
-      <br><br>
-       Me(Gyaan)
-      <br><br>
-      <label>Webcam View - </label>
-      <div id="camera"></div>
-      <br><br>
-      <div id="result"></div>
-      <br><br>
-      <button onclick="take_snapshot();" class="btn btn-info">Capture Image</button>
-      <br><br>
-      <button  onclick="check();" class="btn btn-info">Identify Image</button>
-      <br><br>
-
-      <p style="font-size: 22px;">Object :  <span id="result_object_name"></span>  </p>
-      <p style="font-size: 22px;">Accuracy : <span id="result_object_accuracy"></span>  </p>
-    </center>
-
-  </div>
+  </h3>
+</center>
+<div class="copy_right_footer">
+  Developed by -Gyaan Patel
+</div>
 <script src="main.js"></script>
-
-  </body>
+</body>
 </html>
 
- 
+
